@@ -1,0 +1,17 @@
+x=c(1,3,5,7,9)
+y=c(15,18,21,23,22)
+meanx=sum(x)/5
+meany=sum(y)/5
+SDx=sd(x)
+SDy=sd(y)
+r=cor(x,y)
+Bxy=r*(SDx/SDy)
+Byx=r*(SDy/SDx)
+result=(Byx*(4-meanx))+meany
+print(meanx)
+print(meany)
+print(Bxy)
+print(Byx)
+paste("x-",meanx,"=",Bxy,"(y-",meany,")")
+paste("y-",meany,"=",Byx,"(x-",meanx,")")
+print(result)

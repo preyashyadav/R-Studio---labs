@@ -1,0 +1,14 @@
+n1=40
+n2=50
+m1=53
+m2=53
+sd1=19
+sd2=18
+sum1=n1*m1
+sum2=n2*m2
+x=(sum1+sum2)/(n1+n2)
+x
+d1=m1-x
+d2=m2-x
+sdt=sqrt(((n1*sd1*sd1)+(n2*sd2*sd2)+(n1*d1*d1)+(n2*d2*d2))/(n1+n2))
+sdt

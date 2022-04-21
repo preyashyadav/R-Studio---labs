@@ -1,0 +1,7 @@
+x=seq(-5000,5000, length = 200)
+y=dnorm(x, mean=1350, sd=300)
+plot(x,y,type="l")
+x=seq(900,5000,length=100)
+y=dnorm(x,mean=1350,sd=300)
+polygon(c(900,x,1200), c(0,y,0), col="red")
+pnorm(1200,mean=1350,sd=300)-pnorm(900,mean=1350,sd=300)

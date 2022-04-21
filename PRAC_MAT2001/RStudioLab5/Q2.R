@@ -1,0 +1,7 @@
+x<-c(40,50,38,60,65,50,35)
+y<-c(38,60,55,70,60,48,30)
+model<-lm(y~x)
+plot(y,x,col = "blue",main = "X & Y",abline(lm(y~x)),cex = 1.3,pch = 16,xlab = "X",ylab = "Y")
+a<-data.frame(x=55)
+result<-predict(model,a)
+print(result)

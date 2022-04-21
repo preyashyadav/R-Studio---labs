@@ -1,0 +1,7 @@
+x=seq(-3,,length=200)
+y=dnorm(x,mean=0,sd=1)
+plot(x,y,type="l")
+x=seq(1.47,3,lenght=100)
+y=dnorm(x,mean=0,sd=1)
+polygon(c(1.47,x,3), c(0,y,0), col="blue")
+pnorm(1.47,mean=0,sd=1)

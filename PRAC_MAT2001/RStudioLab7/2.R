@@ -1,0 +1,5 @@
+dpois(x=5,lambda=7)
+dpois(x=0:5,lambda=7)
+sum(dpois(x=5,lambda=7))
+ppois(5,lambda=7,lower.tail = TRUE)
+ppois(5,lambda=7,lower.tail = FALSE)

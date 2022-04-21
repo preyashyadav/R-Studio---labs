@@ -1,0 +1,7 @@
+pnorm(1.25,0,1) - pnorm(0,0,1)
+-pnorm(-1.25,0,1) + pnorm(0,0,1)
+pnorm(1.25,0,1) - pnorm(0.6,0,1)
+pnorm(2.5,0,1, lower.tail = F)
+pnorm(2.5,0,1)
+pnorm(-2.5, 0, 1, lower.tail = F)
+pnorm(-2.5,0,1)
